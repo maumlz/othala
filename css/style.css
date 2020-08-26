@@ -93,8 +93,7 @@
   to {opacity: 1}
 }
 
-iframe{
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+div {
+  text-align:center;
+  width:100%;
 }

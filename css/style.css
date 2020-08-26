@@ -92,3 +92,9 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+iframe{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}

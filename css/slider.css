@@ -3,7 +3,25 @@ img {vertical-align: middle;}
 
 #slider {
     position: relative;
+    /* height: 60vh; */
+    /* width: 60vw; */
     margin: auto;
+
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.slide{
+    margin: auto;
+    /* height: 100%; */
+    width: 100%;
+    text-align: center;
+}
+
+.slide img{
+    /* height: 100%; */
+    margin: auto;
+    max-width: 100%;
 }
 
 #prev, #next {
@@ -29,12 +47,12 @@ img {vertical-align: middle;}
 
 .text {
     color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
+    font-size: 1vw;
+    padding: 0.5vh 1vw;
     position: absolute;
-    bottom: 8px;
-    width: 10%;
-    left: 45%;
+    bottom: 1vh;
+    width: 10vw;
+    left: 33vw;
     text-align: center;
     background-color: rgba(0,0,0,0.5);
     border-radius: 5px 5px;

@@ -1,0 +1,56 @@
+.slide {display: none}
+img {vertical-align: middle;}
+
+#slider {
+    position: relative;
+    margin: auto;
+}
+
+#prev, #next {
+    vertical-align:middle;
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0.5);
+    top: 50%;
+    padding: 1vh 1vw;
+    cursor: pointer;
+    user-select: none;
+}
+
+#next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 10%;
+    left: 45%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px 5px;
+    transition: 0.6s ease;
+
+}
+
+.text:hover{
+    background-color: rgba(0,0,0,0.8);
+    transition: 0.6s ease;
+}
+
+.num {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+  }
